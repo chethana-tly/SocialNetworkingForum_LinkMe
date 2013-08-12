@@ -1,0 +1,45 @@
+$def with (name)
+<!DOCTYPE html>
+<html>
+  <head>
+		<title>My Home Page</title>
+		<link rel="stylesheet" type="text/css" href="../static/styles.css" />
+`		<link rel="icon" type="image/png" href="/static/favicon.ico">
+		<h4>You are logged in. <a href="/logout"> Logout</a>'</h4>
+	</head>
+	<body> 
+		<div id="container">
+			<h2 id="list"> Yipeee!! Good Day $name :) !<br/>  </h2>
+			<form name="userhome" method="POST" action="/myHomePage">
+		<!--<div id="profilePic"><img id='displaypic' alt="face" src="../static/IIITMK-logo.jpg" height="50px" width="50px">-->
+			<ul class="homeLinks">
+				<marquee behavior="alternate">Welcome to LinkMe!!</marquee>
+			</ul>
+					
+			 	<table class="homeLinks" border="0">
+					<tr><td><li><a href="/viewMessageBox">My Messages</a></li></td></tr>
+					<tr><td><li><a href="/listFriends">Friends </a></li></td></tr>
+					<tr><td><li><a href="/viewMembers">View Members</a></li></td>
+					<tr><td><li><a href="/viewDiscussions ">Discussion Board </a></li></td></tr>
+					<tr><td><li><a href="/viewNews&Events">News&Events</a></li></td></tr>
+					<tr><td><li><a href="/viewOpinionPolls">Opinion Poll</a></li></td></tr>
+					<tr><td><li><a href="/editProfile">Edit Profile </a></li></td></tr>
+					<tr>
+						
+						<td><li><a href="/myProfile">My Profile</a></li></li></td>
+						
+					</tr>
+				</table>
+				<ul class="homeLinks">
+					<marquee behavior="alternate">IIITMK</marquee>
+				</ul>
+					
+					<img id='logo' alt="logo" src="../static/LINKME-logo.jpg" height="30px" width="30px">
+				
+	      
+		      </form>
+		</div>
+		
+	</body>
+
+</html>
